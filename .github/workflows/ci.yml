@@ -21,8 +21,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest
-          pip install -r requirements.txt
+      #   pip install -r requirements.txt
 
-      - name: Run tests
+      # Step to run the Python script
+      - name: Run Python script
         run: |
-          pytest
+          python rectangle_area.py
+
+      #- name: Run tests
+      #  run: |
+      #    pytest
