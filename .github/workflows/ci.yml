@@ -28,6 +28,6 @@ jobs:
         run: |
           python rectangle_area.py
 
-      #- name: Run tests
-      #  run: |
-      #    pytest
+      - name: Run tests
+        run: |
+          pytest
