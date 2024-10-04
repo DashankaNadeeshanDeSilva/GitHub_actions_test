@@ -1,4 +1,4 @@
-# train_model.py
+# This script trains a simple Linear regression model on dummy data and saves the model.
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
