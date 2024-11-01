@@ -35,7 +35,13 @@ jobs:
       - name: Train model
         run: |
           python train_model.py
+
       # Model inference given trained model
       - name: Run inference
         run: |
           python predict.py
+
+      # Run streamlit app UI to see predictions
+      - name: Run Streamlit app
+        run: |
+          streamlit run app.py
