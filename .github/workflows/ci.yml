@@ -42,6 +42,6 @@ jobs:
           python predict.py
 
       # Run streamlit app UI to see predictions
-      - name: Run Streamlit app
-        run: |
-          streamlit run app.py
+      #- name: Run Streamlit app
+      #  run: |
+      #    streamlit run app.py
